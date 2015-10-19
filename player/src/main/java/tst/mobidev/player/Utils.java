@@ -1,7 +1,7 @@
 package tst.mobidev.player;
 
 /**
- * @author by paladium
+ * @author by Bramengton
  * @date 07.10.15.
  */
 public class Utils {
