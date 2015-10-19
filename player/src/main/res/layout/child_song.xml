@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/ItemBodyDimension">
+    <!--Default is "note" logo, on play change logo to "play" logo -->
+    <ImageView
+            android:layout_width="@dimen/def_size"
+            android:layout_height="@dimen/def_size"
+            android:id="@+id/avatar"
+            android:contentDescription="@string/playImage"/>
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:layout_toRightOf="@+id/avatar"
+            android:layout_toEndOf="@+id/avatar"
+            android:layout_alignBottom="@+id/avatar"
+            android:layout_marginLeft="@dimen/material_padding"
+            android:gravity="center">
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/playName"
+                android:id="@+id/song_name"
+                style="@style/ItemBody.Label"/>
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/secondLabel"
+                android:id="@+id/dur_ar_al"
+                style="@style/ItemBody.SecondaryLabel"/>
+    </LinearLayout>
+</RelativeLayout>

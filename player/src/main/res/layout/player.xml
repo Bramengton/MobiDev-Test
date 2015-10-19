@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+    <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            tools:context=".MainPlay">
+        <FrameLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_above="@+id/include">
+            <ListView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/song_list"/>
+            <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="@string/noMedia"
+                    android:id="@+id/empty"
+                    android:gravity="center"/>
+        </FrameLayout>
+        <include android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_alignParentBottom="true"
+                 layout="@layout/controller"
+                 android:id="@+id/include"/>
+
+    </RelativeLayout>
+</LinearLayout>

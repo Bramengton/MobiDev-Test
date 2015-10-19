@@ -1,0 +1,95 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <!--<style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">-->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowBackground">@color/primary_light</item>
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryDark">@color/primary_dark</item>
+        <item name="colorAccent">@color/accent</item>
+
+
+        <!-- for open file dialog -->
+        <item name="alertDialogTheme">@style/AlertDialogCustom</item>
+        <item name="android:alertDialogTheme">@style/AlertDialogCustom</item>
+        <item name="android:textAppearanceListItemSmall">@style/Base.TextAppearance.AppCompat.Small.Inverse</item>
+    </style>
+
+    <style name="AlertDialogCustom" parent="Theme.AppCompat.Dialog"/>
+
+    <style name="OpenFileDialogWindowTitle">
+        <item name="android:gravity">center</item>
+        <item name="android:textAppearance">@style/ItemBody.Label</item>
+        <item name="android:textColor">@color/primary_light</item>
+    </style>
+
+    <style name="ItemBodyDimension">
+        <item name="android:layout_height">@dimen/def_size</item>
+    </style>
+
+    <style name="ItemBody">
+        <item name="android:maxLines">1</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:singleLine">true</item>
+    </style>
+
+    <style name="ItemBody.Label">
+        <item name="android:textAppearance">@style/Base.TextAppearance.AppCompat.Title</item>
+    </style>
+
+    <style name="ItemBody.SecondaryLabel">
+        <item name="android:textAppearance">@style/Base.TextAppearance.AppCompat.Caption</item>
+    </style>
+
+
+    <style name="ButtonSelector">
+        <item name="android:background">@drawable/custom_selector</item>
+    </style>
+
+    <style name="MediaButton" parent="ButtonSelector">
+        <item name="android:orientation">vertical</item>
+        <item name="android:layout_width">48dp</item>
+        <item name="android:layout_height">48dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_marginLeft">4dp</item>
+        <item name="android:layout_marginRight">4dp</item>
+        <item name="android:clickable">true</item>
+    </style>
+
+    <style name="MediaIcon">
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:layout_width">32dp</item>
+        <item name="android:layout_height">32dp</item>
+    </style>
+
+    <style name="MediaIcon.Previous">
+        <item name="android:src">@drawable/ic_skip_previous</item>
+    </style>
+
+    <style name="MediaIcon.Next">
+        <item name="android:src">@drawable/ic_skip_next</item>
+    </style>
+
+    <style name="MediaIcon.Shuffle">
+        <item name="android:src">@drawable/ic_repeat</item>
+    </style>
+
+    <style name="MediaIcon.Play">
+        <item name="android:src">@drawable/ic_play</item>
+    </style>
+
+    <style name="MediaIcon.Pause">
+        <item name="android:src">@drawable/ic_pause</item>
+    </style>
+
+    <style name="MediaIcon.Stop">
+        <item name="android:src">@drawable/ic_stop</item>
+    </style>
+
+    <style name="DrawerDivider">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:background">@android:drawable/divider_horizontal_bright</item>
+        <item name="android:layout_marginTop">8dp</item>
+    </style>
+</resources>

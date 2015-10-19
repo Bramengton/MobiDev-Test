@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Media Player</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_select">Select music dir</string>
+
+    <string name="noMedia">Sorry no media</string>
+    <string name="noDuration">0:00 / 0:00</string>
+    <string name="noSong">Select song or press play</string>
+    <!--Default is "note" logo, on start change logo to "start" logo -->
+    <string name="playImage">playLogo</string>
+    <string name="playName">Play File</string>
+    <!--duration | artist - album -->
+    <string name="secondLabel">%1$s | %2$s - %3$s</string>
+    <!--artist - song -->
+    <string name="controllerLabel">%1$s - %2$s</string>
+    <string name="controllerDuration">%1$s / %2$s</string>
+</resources>
