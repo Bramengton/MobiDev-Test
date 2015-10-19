@@ -25,7 +25,7 @@ import java.util.Collection;
 import java.util.List;
 
 /**
- * @author by paladium
+ * @author by Bramengton
  * @date 09.10.15.
  */
 public class Player extends Fragment implements View.OnClickListener {
