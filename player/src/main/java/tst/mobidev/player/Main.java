@@ -5,7 +5,7 @@ import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentTransaction;
 
 /**
- * @author by paladium
+ * @author by Bramengton
  * @date 07.10.15.
  */
 public class Main extends BaseActivity
