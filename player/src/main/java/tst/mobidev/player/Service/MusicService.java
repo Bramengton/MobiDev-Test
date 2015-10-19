@@ -16,7 +16,7 @@ import java.util.ArrayList;
 import java.util.Random;
 
 /**
- * @author by paladium
+ * @author by Bramengton
  * @date 07.10.15.
  */
 public class MusicService extends Service implements

@@ -25,7 +25,7 @@ import java.io.FilenameFilter;
 import java.util.*;
 
 /**
- * @author by paladium
+ * @author by Bramengton
  * @date 15.02.14.
  */
 public class OpenFileDialog extends DialogFragment

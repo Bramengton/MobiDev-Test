@@ -8,7 +8,7 @@ import java.util.Collection;
 import java.util.Comparator;
 
 /**
- * @author by paladium
+ * @author by Bramengton
  * @date 07.10.15.
  */
 public class Song  implements Parcelable, Comparator<Song> {
