@@ -6,7 +6,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 
 /**
- * @author by paladium
+ * @author by Bramengton
  * @date 07.10.15.
  */
 public abstract class BaseActivity extends AppCompatActivity {
